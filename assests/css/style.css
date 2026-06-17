@@ -1,0 +1,122 @@
+body{
+            height: 100vh;
+            background-color: rgb(196, 196, 196);
+            text-align: center;
+        }
+
+.registerSection{
+    width: 25%;
+  
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+            height: 100vh;
+            background-color: rgb(196, 196, 196);
+            text-align: center;
+        }
+
+.registerSection h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to right,#FAFF00,#00E0FF);
+    display: inline-block;
+    background-clip: text;
+    color:rgba(0, 0, 0, 0.042); 
+}
+
+.registerSection span{
+    color: red;
+}
+.formSection{
+    text-align: center;
+}
+
+
+.formSection .halfInput{
+    text-align: justify;
+    width: 45%;
+    display: inline-block;
+}
+
+.formSection .lineInput{
+    text-align: justify;
+    width: 90%;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+input{
+    width: 90%;
+    border: none;
+    background: linear-gradient(to right, #FF8A00, #D8FF00);
+    border-radius: 100px;
+    height: 30px;
+
+}
+
+.checkboxsection , .radioSection{
+    text-align: justify;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.checkboxsection label{
+    font-size:10px ;
+    vertical-align: super;
+}
+
+.checkboxsection input{
+    width: 10px;
+    vertical-align: sub;
+}
+
+button{
+    background-color: #FF8A00;
+    color: white;
+    width: 55%;
+    height: 30px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+button:hover{
+    box-shadow: 0px 0px 10px black;
+}
+
+button:focus{
+    box-shadow: 0px 0px 10px black inset;
+    background-color: #dbff00;
+}
+
+.lineInput input::placeholder{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 15px;
+}
+
+.halfInput input::placeholder{
+    color: rgba(0, 0, 0, 0.747);
+    font-size: 12px;
+}
+
+@media (max-width : 426px) {
+    .registerSection{
+        width: 100%;
+        padding: 20px 0 20px 0;
+    .title{
+        padding-left: 20px;
+    }
+        
+    }
+}
